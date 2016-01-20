@@ -39,5 +39,3 @@ if __name__ == '__main__':
            update_weight(w,phi,y)
    for key,value in sorted(w.items(),key = lambda x:x[1]):
      print key,value
-
-
