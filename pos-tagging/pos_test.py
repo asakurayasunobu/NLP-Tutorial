@@ -75,7 +75,7 @@ def test_hmm(model_file,test_file,result_file):
 
 
 if __name__ == '__main__':
-    lambda_ = 0.95
+    lambda_ = 0.99
     vocab =defaultdict(lambda: 0)
     tag_dict = defaultdict(lambda: 0)
     emit_dict = defaultdict(lambda: .0)
