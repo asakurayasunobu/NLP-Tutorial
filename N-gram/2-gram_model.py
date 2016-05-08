@@ -19,6 +19,8 @@ def main():
             context_counts[words[i-1]] += 1
             counts[words[i]] += 1
             context_counts[''] += 1
+        print(context_counts[''])
+        exit()
     for ngram,count in counts.items():
         words_ = ngram.split()[:-1]
         if len(words_) == 1:
